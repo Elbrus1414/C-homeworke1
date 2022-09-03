@@ -12,13 +12,13 @@ Console.WriteLine("Введите число b");
 int c = int.Parse(Console.ReadLine());
 if (a > b)
     if (a > c)
-{
-Console.WriteLine("max=a"); 
-}
+    {
+        Console.WriteLine("max=a");
+    }
 if (b > a)
     if (b > c)
-{
-Console.WriteLine("max=b"); 
-}
-else
-Console.WriteLine("max=c"); 
+    {
+        Console.WriteLine("max=b");
+    }
+    else
+        Console.WriteLine("max=c");
